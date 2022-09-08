@@ -1,0 +1,62 @@
+% The proposal for the Comment Anywhere project.
+
+% Authors:
+%   Luke Bates - 
+%   Frank Bedekovich -
+%   Robert Krency - kre1188@pennwest.edu
+%   Karl Miller - 
+
+\documentclass[14pt]{article}
+
+\usepackage{subfiles}
+
+% Title information
+\title{\vspace{2cm} \Huge Comment Anywhere}
+\author{}
+\date{}
+
+% Geometry - Margins
+\usepackage{geometry}
+\geometry{letterpaper, left=20mm, top=20mm, right=20mm, bottom=20mm}
+
+% Fancy Header
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\pagestyle{fancyplain}
+\fancyfoot{}
+\lhead{Comment Anywhere}
+\rhead{Proposal}
+\cfoot{Page \thepage \hspace{1pt} of \pageref{LastPage}}
+
+
+% Document
+\begin{document}
+    
+% Title Page
+\maketitle
+\thispagestyle{fancy}
+
+\vspace{12cm}
+
+\begin{center}
+    \begin{tabular}{l l}
+        \textbf{Author} & \textbf{Major} \\
+        Luke Bates & Computer Science \\
+        Frank Bedekovich \hspace{1cm} & Computer Science \\
+        Robert Krency & Computer Science \\
+        Karl Miller & Computer Science
+    \end{tabular}    
+\end{center}
+
+
+\pagebreak
+
+% Include subfiles for sections
+\subfile{tex/motivation.tex}
+\subfile{tex/objectives.tex}
+\subfile{tex/implementation.tex}
+\subfile{tex/users.tex}
+\subfile{tex/features.tex}
+
+
+\end{document}
