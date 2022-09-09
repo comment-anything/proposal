@@ -10,7 +10,7 @@ The current version of the proposal can be read [here](docs/out/proposal.pdf).
 ---
 
 A project brought to you by:
-- Luke Bates - 
+- Luke Bates - bat6731@pennwest.edu
 - Frank Bedekovich - 
 - Robert Krency - kre1188@calu.edu
 - Karl Miller - 
